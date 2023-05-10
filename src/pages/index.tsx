@@ -9,18 +9,18 @@ const IndexPage: NextPage<Props> = () => {
     <div>
       <h1>Star Wars</h1>
       <div>
-        <Link href="/Movies">
-          <a className={styles.button}>Films</a>
+        <Link className={styles.button} href="/movies">
+          Films
         </Link>
       </div>
       <div>
-        <Link href="/Planets">
-          <a className={styles.button}>Planets</a>
+        <Link className={styles.button} href="/planets">
+          Planets
         </Link>
       </div>
       <div>
-        <Link href="/Vehicles">
-          <a className={styles.button}>Vehicles</a>
+        <Link className={styles.button} href="/vehicles">
+          Vehicles
         </Link>
       </div>
     </div>
